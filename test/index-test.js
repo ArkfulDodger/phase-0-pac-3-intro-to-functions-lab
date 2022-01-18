@@ -11,29 +11,29 @@ describe('whisper(string)', function() {
   })
 })
 
-// describe('logShout(string)', function() {
-//   it('takes a string argument and logs it in all caps using console.log()', function() {
-//     const spy = expect.spyOn(console, 'log').andCallThrough();
+describe('logShout(string)', function() {
+  it('takes a string argument and logs it in all caps using console.log()', function() {
+    const spy = expect.spyOn(console, 'log').andCallThrough();
 
-//     logShout('hello');
+    logShout('hello');
 
-//     expect(spy).toHaveBeenCalledWith('HELLO');
+    expect(spy).toHaveBeenCalledWith('HELLO');
 
-//     console.log.restore();
-//   })
-// })
+    console.log.restore();
+  })
+})
 
-// describe('logWhisper(string)', function() {
-//   it('takes a string argument and logs it in all lowercase using console.log()', function() {
-//     const spy = expect.spyOn(console, 'log').andCallThrough();
+describe('logWhisper(string)', function() {
+  it('takes a string argument and logs it in all lowercase using console.log()', function() {
+    const spy = expect.spyOn(console, 'log').andCallThrough();
 
-//     logWhisper('HELLO');
+    logWhisper('HELLO');
 
-//     expect(spy).toHaveBeenCalledWith('hello');
+    expect(spy).toHaveBeenCalledWith('hello');
 
-//     console.log.restore();
-//   })
-// })
+    console.log.restore();
+  })
+})
 
 describe('sayHiToHeadphonedRoommate(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
