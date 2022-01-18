@@ -18,13 +18,10 @@ function sayHiToHeadphonedRoommate(string) {
     switch (true) {
         case string === "Let's have dinner together!":
             return "I would love to!";
-            break;
         case string === shout(string):
             return "YES INDEED!";
-            break;
         case string === whisper(string):
             return "I can't hear you!";
-            break;
         default:
             console.log("no defined response");
             break;
